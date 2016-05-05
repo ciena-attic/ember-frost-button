@@ -1,1 +1,2 @@
-# <span style="color: red">This repo has been ported to</span> [ember-frost-core] <span style="color: red"> - no more PRs will be accepted.</span>
+[ember-frost-core]: https://github.com/ciena-frost/ember-frost-core
+# This repo has been ported to [ember-frost-core] - no more PRs will be accepted.
