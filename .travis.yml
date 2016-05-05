@@ -26,6 +26,10 @@ matrix:
   allow_failures:
   - env: EMBER_TRY_SCENARIO=ember-canary
 before_install:
+- git log -3
+- echo $TRAVIS_COMMIT
+- echo $TRAVIS_REPO_SLUG
+- echo $TRAVIS_PULL_REQUEST
 - npm config set spin false
 - npm install -g coveralls pr-bumper
 - pr-bumper check
